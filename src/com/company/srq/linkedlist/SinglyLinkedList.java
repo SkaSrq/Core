@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class SinglyLinkedList {
    static Node head = null;
-   static Node tail = null;
+    static Node tail = null;
     public static class Node {
         int data;
+
         Node next;
         Node(int data){
             this.data = data;
